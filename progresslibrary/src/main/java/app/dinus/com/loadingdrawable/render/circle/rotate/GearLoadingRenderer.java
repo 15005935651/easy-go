@@ -14,6 +14,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 
 import app.dinus.com.loadingdrawable.DensityUtil;
+import app.dinus.com.loadingdrawable.R;
 import app.dinus.com.loadingdrawable.render.LoadingRenderer;
 
 public class GearLoadingRenderer extends LoadingRenderer {
@@ -91,7 +92,7 @@ public class GearLoadingRenderer extends LoadingRenderer {
         mStrokeWidth = DensityUtil.dip2px(context, DEFAULT_STROKE_WIDTH);
         mCenterRadius = DensityUtil.dip2px(context, DEFAULT_CENTER_RADIUS);
 
-        mColor = DEFAULT_COLOR;
+        mColor = context.getResources().getColor(R.color.colorGreen);
 
         mGearCount = GEAR_COUNT;
         mGearSwipeDegrees = DEFAULT_GEAR_SWIPE_DEGREES;
