@@ -1,1 +1,1 @@
-include ':app', ':loadinglayout', ':progresslibrary'
+include ':app', ':loadinglayout', ':progresslibrary', ':RxTools-library'

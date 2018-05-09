@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/RxTools-library/RxTools-library.iml" filepath="$PROJECT_DIR$/RxTools-library/RxTools-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/loadinglayout/loadinglayout.iml" filepath="$PROJECT_DIR$/loadinglayout/loadinglayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/progresslibrary/progresslibrary.iml" filepath="$PROJECT_DIR$/progresslibrary/progresslibrary.iml" />
